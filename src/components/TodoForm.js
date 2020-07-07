@@ -2,8 +2,8 @@ import React from 'react';
 
 
 class TodoForm extends React.Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
             todo: ""
         };
@@ -22,16 +22,6 @@ class TodoForm extends React.Component {
             todo: ""
         });
     };
-
-//     clearCompleted = clearCompletedTodo => {
-//         this.setState({
-//           list: this.state.list.filter(item => item.todoId !== clearCompletedTodo),
-//           this.setState({
-//             list: list
-//           })
-//         });
-//   }
- 
 
     render() {
         return (
