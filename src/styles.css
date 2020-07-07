@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width:800px;
+  max-width:1000px;
 }
 
 .task-list{
@@ -44,7 +44,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 1% 2%;
 }
 
